@@ -4,12 +4,17 @@
   "description": "Primer proyecto con NodeJS",
   "main": "index.html",
   "scripts": {
-	"dev": "lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stevens Cañon",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
   }
 }
