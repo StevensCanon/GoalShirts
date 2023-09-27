@@ -10,7 +10,8 @@ footer {
     color: #fff; 
     margin-bottom: 0px;
     margin-top: 10px;
-  }
+}
+  
   
 footer a{
   color: #fff;
@@ -24,3 +25,10 @@ footer a{
   .btn-reserva{
     width: 100%;
   }
+
+  .footer-address-icon {
+   padding-right:10px ;
+   color: aqua;
+   padding-bottom: 4px;
+  }
+  
