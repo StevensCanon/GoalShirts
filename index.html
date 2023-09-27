@@ -5,16 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="Stylesheet" href="css/style.css">
+    
 <title>Coursera</title>
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Fútbol</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Terminos y Condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  
     <div class="jumbotron text-center">
         <h1>Fútbol</h1>
         <p>Este es una pagina web sobre Fútbol, Bienvenido!</p>
       </div>
 
       <div class="container">
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+        </nav>
         <div class="row">
           <div class="col-sm-12 col-md-4">
             <h2>Equipos de Fútbol</h2>
@@ -34,7 +56,7 @@
 
      <!-- Lista utilizando el sistema de grillas -->
 
-  <div class="d-flex fle wrap flew-row-reverse">
+  <div class="d-flex fle-wrap flew-row-reverse">
     <div class="card-futbol d-flex flex-column justify-content-between">
        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/640px-Real_Madrid_CF.svg.png" class="card-img-top" alt="Real Madrid"  height="410px">
           <div>
@@ -45,6 +67,7 @@
             <button class="btn btn-success btn-reserva">Ver Más..</button>    
         </div>
       </div>
+      
 
     <div class="card-futbol d-flex flex-column justify-content-between">
       <img src="https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Ftherealchamps.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F947096288.jpeg" class="card-img-top" alt="Cristiano Ronaldo" height="410px">
@@ -86,7 +109,7 @@
         <address>
           <h3>ACERCA DE NOSOTROS</h3>
           <p>Brasilia 876, Villavicencio, Colombia</p>
-          <p>+5731411215691</p>
+          <p>+5731411215XXX</p>
           <p>Contacto@futbolista.com</p>
         </address>
       </div>
@@ -104,7 +127,6 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/cjs/bootstrap.min.js"></script>
-  
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
