@@ -3,13 +3,16 @@
     color: rgb(221, 220, 220);
     margin-top: 55px;
 }
+.inicio,h2{
+  text-align:center;
+}
 
-footer { 
-    padding: 10px 10px 0 10px; 
-    background-color: rgb(1, 90, 8); 
-    color: #fff; 
-    margin-bottom: 0px;
-    margin-top: 10px;
+footer {
+  background-color: rgb(1, 90, 8); 
+  padding: 10px 10px 0 10px; 
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
   
   
@@ -18,12 +21,12 @@ footer a{
 }
   .card-futbol {
     flex: 1 150px;
-    padding: 2px 2px 2px 2px;
     margin-top: 10px;
   }
 
   .btn-reserva{
     width: 100%;
+    border-radius: 0px;
   }
 
   .footer-address-icon {
