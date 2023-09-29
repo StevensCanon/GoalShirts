@@ -150,18 +150,84 @@
 
       </div>
       <div class="tab-pane fade" id="metodospago" role="tabpanel" aria-labelledby="metodospago-tab">
-        <div class="d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">Métodos de Pago</div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Tarjeta Crédito</li>
-              <li class="list-group-item">Tarjeta Débito</li>
-              <li class="list-group-item">Tarjeta PayPal</li>
-              <li class="list-group-item">Transferencia Bancaria</li>
-              <li class="list-group-item">Pago en Efectivo</li>
-            </ul>
+        <div class="accordion" id="accordionTarjetas">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseCredito" aria-expanded="true" aria-controls="collapseCredito">Tarjeta Credito</button></h5></div>
+
+                <div id="collapseCredito" clas="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                  <div class="card-body">
+                    Utiliza tu tarjeta de crédito para realizar compras sin preocupaciones. Disfruta de la flexibilidad de aplazar tus pagos y aprovecha las ofertas y descuentos
+                     exclusivos que ofrecen muchas tarjetas de crédito. Compra ahora y paga más tarde de manera cómoda y segura.
+                  </div>
+                </div>
           </div>
-        </div>
+
+          <div class="accordion" id="accordionTarjetas">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseDebito" aria-expanded="false" aria-controls="collapseDebito">Tarjeta Débito</button>
+                </h5>
+              </div>
+          
+              <div id="collapseDebito" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  La tarjeta de débito te brinda acceso inmediato a los fondos de tu cuenta bancaria. Olvídate de las deudas y controla tus gastos de manera eficiente. Realiza compras en línea o en tiendas físicas con la tranquilidad de que estás gastando lo que tienes disponible en tu cuenta.
+                </div>
+              </div>
+            </div>
+
+          <div class="accordion" id="accordionTarjetas">
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsePayPal" aria-expanded="false" aria-controls="collapsePayPal">Tarjeta PayPal</button>
+                </h5>
+              </div>
+          
+              <div id="collapsePayPal" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  PayPal es la solución de pago en línea líder en el mundo. Con tu cuenta PayPal, puedes comprar de forma segura en miles de tiendas en línea sin compartir tu información financiera. Además, PayPal ofrece protección al comprador y opciones de devolución de dinero, lo que te brinda tranquilidad al hacer tus compras en línea.
+                </div>
+              </div>
+            </div>
+
+          <div class="accordion" id="accordionTarjetas">
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTransferencia" aria-expanded="false" aria-controls="collapseTransferencia">Transferencia Bancaria</button>
+                </h5>
+              </div>
+          
+              <div id="collapseTransferencia" class="collapse" aria-labelledby="headingFour" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  La transferencia bancaria es una forma segura y directa de enviar dinero de una cuenta bancaria a otra. Es ideal para transacciones grandes, como el pago de facturas o la compra de propiedades. Asegúrate de tener los detalles bancarios correctos y podrás realizar transferencias de fondos de manera confiable.
+                </div>
+              </div>
+            </div>
+             
+          <div class="accordion" id="accordionTarjetas">
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseEfectivo" aria-expanded="false" aria-controls="collapseEfectivo">Pago en Efectivo</button>
+                </h5>
+              </div>
+          
+              <div id="collapseEfectivo" class="collapse" aria-labelledby="headingFive" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  El pago en efectivo es la forma más tradicional de realizar compras. Simplemente lleva el dinero en efectivo cuando vayas a comprar y paga directamente en la tienda. Esta opción es ideal si prefieres no utilizar tarjetas o realizar transacciones en línea, y te permite un mayor control sobre tus gastos diarios.
+                </div>
+              </div>
+            </div>     
 
       </div>
       <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
@@ -169,8 +235,14 @@
         <p>Aquí puedes agregar tus comentarios o contenido relacionado con los comentarios.</p>
       </div>
   </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
+
 
 
   <footer>
