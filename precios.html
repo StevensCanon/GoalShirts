@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Precios</title>
 </head>
@@ -50,118 +50,155 @@
         <li class="breadcrumb-item active" aria-current="page">Precios</li>
       </ol>
     </nav>
-    <div class="table-responsive">
-    <table class="table table-striped">
-      <thead class="table-dark">
-        <tr>
-          <th>Calidad</th>
-          <th>Equipo</th>
-          <th>Talla</th>
-          <th>Precio</th>
-          <th>Temporada</th>
-          <th>Género</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Original</td>
-          <td>Real Madrid</td>
-          <td>S</td>
-          <td>$578.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Original</td>
-          <td>Manchester City</td>
-          <td>S</td>
-          <td>$615.470 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Original</td>
-          <td>Borussia Dortmund</td>
-          <td>L</td>
-          <td>$426.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Original</td>
-          <td>Barcelona</td>
-          <td>M</td>
-          <td>$550.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Replica 1.1</td>
-          <td>Liverpool</td>
-          <td>L</td>
-          <td>$420.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Original</td>
-          <td>Bayern Munich</td>
-          <td>XL</td>
-          <td>$625.500 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Replica 1.1</td>
-          <td>Paris Saint-Germain</td>
-          <td>M</td>
-          <td>$390.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-        <tr>
-          <td>Original</td>
-          <td>Manchester United</td>
-          <td>L</td>
-          <td>$580.000 COP</td>
-          <td>2023</td>
-          <td>Unisex</td>
-        </tr>
-      </tbody>
-    </table>
+
+
+    <div class="container mt-4">
+      <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="productos-tab" data-bs-toggle="pill" href="#productos" role="tab" aria-controls="productos" aria-selected="true">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="metodospago-tab" data-bs-toggle="pill" href="#metodospago" role="tab" aria-controls="metodospago" aria-selected="false">Métodos de Pago</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="comentarios-tab" data-bs-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="productos" role="tabpanel" aria-labelledby="productos-tab">
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="table-dark">
+              <tr>
+                <th>Calidad</th>
+                <th>Equipo</th>
+                <th>Talla</th>
+                <th>Precio</th>
+                <th>Temporada</th>
+                <th>Género</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Original</td>
+                <td>Real Madrid</td>
+                <td>S</td>
+                <td>$578.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Original</td>
+                <td>Manchester City</td>
+                <td>S</td>
+                <td>$615.470 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Original</td>
+                <td>Borussia Dortmund</td>
+                <td>L</td>
+                <td>$426.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Original</td>
+                <td>Barcelona</td>
+                <td>M</td>
+                <td>$550.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Replica 1.1</td>
+                <td>Liverpool</td>
+                <td>L</td>
+                <td>$420.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Original</td>
+                <td>Bayern Munich</td>
+                <td>XL</td>
+                <td>$625.500 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Replica 1.1</td>
+                <td>Paris Saint-Germain</td>
+                <td>M</td>
+                <td>$390.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+              <tr>
+                <td>Original</td>
+                <td>Manchester United</td>
+                <td>L</td>
+                <td>$580.000 COP</td>
+                <td>2023</td>
+                <td>Unisex</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="metodospago" role="tabpanel" aria-labelledby="metodospago-tab">
+        <div class="d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">Métodos de Pago</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Tarjeta Crédito</li>
+              <li class="list-group-item">Tarjeta Débito</li>
+              <li class="list-group-item">Tarjeta PayPal</li>
+              <li class="list-group-item">Transferencia Bancaria</li>
+              <li class="list-group-item">Pago en Efectivo</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+        <h2>Contenido de la pestaña "Comentarios"</h2>
+        <p>Aquí puedes agregar tus comentarios o contenido relacionado con los comentarios.</p>
+      </div>
   </div>
+    </div>
   </div>
+
 
   <footer>
     <div class="row">
       <div class="col-sm-4">
         <div class="d-flex flex-column">
-          <a href="https://www.realmadrid.com/"><span class="material-icons  footer-address-icon">sports_soccer</span>Real Madrid</a>
-          <a href="https://fcf.com.co/"><span class="material-icons  footer-address-icon">sell</span>Federación Colombiana de Fútbol</a>
-          <a href="https://www.instagram.com/"><span class="material-icons  footer-address-icon">account_circle</span>Instagram</a>
+          <a class="links" href="https://twitter.com/"><i class="bi bi-twitter-x"></i> Twitter</a>
+          <a class="links" href="https://www.instagram.com/"><i class="bi bi-instagram"></i> Instagram</a>
+          <a class="links" href="https://www.facebook.com/"><i class="bi bi-facebook"></i> Facebook</a>
         </div>
       </div>
-
-      <div class="col-sm-4">
-        <div class="d-flex flex-column">
-          <address>
-            <h3>ACERCA DE NOSOTROS</h3>
-            <p><span class="material-icons footer-address-icon">location_on</span>Brasilia 876, Villavicencio, Colombia</p>
-            <p><span class="material-icons footer-address-icon">call</span>+5731411215XXX</p>
-            <p><span class="material-icons footer-address-icon">contact_mail</span>Contacto@futbolista.com</p>
-          </address>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="d-flex flex-column align-items-end">
-          <a href="https://www.realmadrid.com/"><span class="material-icons footer-address-icon">description</span>Nosotros</a>     
-          <a href="wwww.google.com"><span class="material-icons footer-address-icon">article</span>Términos y Condiciones</a>
-          <a href="wwww.google.com"><span class="material-icons footer-address-icon">policy</span>Política de Privacidad</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+        
+          <div class="col-sm-4">
+            <address>
+              <h3>ACERCA DE NOSOTROS</h3>
+              <p><i class="bi bi-geo-alt-fill"></i> Brasilia 876, Villavicencio, Colombia</p>
+              <p><i class="bi bi-telephone-fill"></i> +57 31411215XXX</p>
+              <p><i class="bi bi-envelope-at-fill"></i> Contacto@futbolista.com</p>
+            </address>
+          </div>
+         
+          <div class="col-sm-4 d-flex flex-column align-items-end">
+              <a class="links" href="about.html"><i class="bi bi-person-fill"></i>Nosotros</a>     
+              <a class="links" href="terminos.html"><i class="bi bi-file-text-fill"></i>Términos y Condiciones</a>
+              <a class="links" href="terminos.html"><i class="bi bi-file-earmark-lock2-fill"></i>Política de Privacidad</a>
+            </div>
+          </div>
+    </footer>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
