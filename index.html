@@ -118,7 +118,7 @@
   <div class="card card-futbol d-flex flex-column justify-content-between ml-2">
     <img class="card-img-top" src="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png" alt="LOGO DE LA PREMIER LEAGUE" >
     <div class="card-body">
-      <h5 class="card-title">PREMIER LEAGUE</h5>
+      <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="La mejor liga del mundo del futbol, compra la tuya ahora!">PREMIER LEAGUE</h5>
       <h6 class="card-subtitle text-muted">Inglaterra</h6>
       <p class="card-text">"La Premier League es la liga de fútbol de Inglaterra, conocida por su intensidad y nivel de juego. Reúne a algunos de los clubes más icónicos del mundo en una competición donde la emoción y el talento se combinan para ofrecer partidos inolvidables."</p>
     </div>
@@ -236,6 +236,11 @@
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+  $(function() {
+    $("[data-bs-toggle='tooltip']").tooltip();
+  });
+</script>
   
   </body>
 </html>
