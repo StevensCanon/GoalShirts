@@ -135,7 +135,7 @@
       <p class="card-text">"La Bundesliga es la liga de fútbol de Alemania, famosa por su ambiente único en los estadios y su énfasis en el desarrollo de jóvenes talentos. Los equipos alemanes compiten en un torneo que combina pasión, precisión táctica y una base de seguidores apasionados."</p>
     </div>
     <div>
-      <button class="btn btn-success btn-reserva">Ver Más..</button>
+      <button class="btn btn-success btn-reserva" data-bs-toggle="popover" data-bs-content="Investiga más, sobre esta apasionante liga">Ver Más..</button>
     </div>
   </div>
 
@@ -177,6 +177,8 @@
   </div>
 </div>
 </div>
+    </div>
+
 
 
 <div class="modal fade" id="contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -239,6 +241,7 @@
 <script>
   $(function() {
     $("[data-bs-toggle='tooltip']").tooltip();
+    $("[data-bs-toggle='popover']").popover();
   });
 </script>
   
