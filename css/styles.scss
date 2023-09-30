@@ -1,0 +1,66 @@
+$green: #108008;
+$yelllow: #d9ce34;
+$red:#590302;
+$white:#ffffff;
+
+@mixin margenes($top,$bottom){
+ margin-top: $top;
+ margin-bottom: $bottom;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+  }
+
+.jumbotron{
+    background-color: $red;
+    color: $white;
+    @include margenes (55px, 0px);
+}
+.inicio,h2{
+  text-align:center;
+}
+
+footer {
+  background-color: $red; 
+  @include padding(10px,10px ,0 ,10px );
+  color: $white;
+  @include margenes (10px, 0px);
+}
+  
+footer a{
+    color: $white;
+}
+  .card-futbol {
+    flex: 1 150px;
+    @include margenes (10px, 0px);
+  }
+
+  .btn-reserva{
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .bi{
+    @include padding(0, 10px, 4px, 0);
+    color: $yelllow;
+  }
+  .links{
+    color: $white;
+    text-decoration: none;
+  }
+ .img-fluid{
+  width: 100%;
+  height: 600px;
+ }
+
+ .tab-content{
+    @include padding(10px, 0, 0, 0);
+ }
+
+ .btn-link{
+  text-decoration: none;
+ }
