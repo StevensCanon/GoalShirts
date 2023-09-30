@@ -209,7 +209,7 @@
     <p class="card-text">"La Saudi Pro League, también conocida como Roshn Saudi League, es la liga de fútbol de Arabia Saudita. Esta competición representa la máxima categoría del fútbol masculino en el país, donde los clubes compiten por el título en un torneo organizado con pasión y profesionalismo."</p>
   </div>
   <div>
-    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">
+    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto" id="contactoBtn">
       Contacto
     </button>
   </div>
@@ -223,7 +223,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Contacto con la liga</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -283,6 +283,27 @@
     $('.carousel').carousel({
       interval:1500
     });
+    $('#contacto').on('show.bs.modal', function(e){
+      console.log('el modal de contacto se esta mostrando)');
+   
+    $('#contactoBtn').removeClass('btn-outline-success');
+    $('#contactoBtn').addClass('btn-primary');
+    $('#contactoBtn').prop('disabled', true);
+
+ });
+    $('#contacto').on('shown.bs.modal', function(e){
+      console.log('el modal de contaco se mostró)');
+    });
+
+    $('#contacto').on('hide.bs.modal', function(e){
+      console.log('el modal de contacto se oculta)');
+    });
+
+    $('#contacto').on('hidden.bs.modal', function(e){
+      console.log('el modal de contacto se oculto)');
+      $('#contactoBtn').prop('disabled', false);
+    });
+
   });
 </script>
   
