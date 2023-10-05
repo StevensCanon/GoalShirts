@@ -2,45 +2,58 @@
   background-color: #690000;
   color: #ffffff;
   margin-top: 50px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .inicio, h2 {
-  text-align: center; }
+  text-align: center;
+}
 
 footer {
   background-color: #690000;
   padding: 10px 10px 0 10px;
   color: #ffffff;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 footer a {
-  color: #fff; }
+  color: #fff;
+}
 
 .card-futbol {
   flex: 1 150px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .btn-reserva {
   width: 100%;
-  border-radius: 0px; }
+  border-radius: 0px;
+}
 
 .bi {
   padding-right: 10px;
   color: #cfcc06;
-  padding-bottom: 4px; }
+  padding-bottom: 4px;
+}
 
 .links {
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .img-fluid {
   width: 100%;
-  height: 600px; }
+  height: 600px;
+}
 
 .tab-content {
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
 .btn-link {
-  text-decoration: none; }
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
