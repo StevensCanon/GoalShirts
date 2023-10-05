@@ -1,24 +1,21 @@
 .jumbotron {
-  background-color: #590302;
+  background-color: #690000;
   color: #ffffff;
-  margin-top: 55px;
+  margin-top: 50px;
   margin-bottom: 0px; }
 
 .inicio, h2 {
   text-align: center; }
 
 footer {
-  background-color: #590302;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 0;
-  padding-left: 10px;
+  background-color: #690000;
+  padding: 10px 10px 0 10px;
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 0px; }
 
 footer a {
-  color: #ffffff; }
+  color: #fff; }
 
 .card-futbol {
   flex: 1 150px;
@@ -30,11 +27,9 @@ footer a {
   border-radius: 0px; }
 
 .bi {
-  padding-top: 0;
   padding-right: 10px;
-  padding-bottom: 4px;
-  padding-left: 0;
-  color: #d9ce34; }
+  color: #cfcc06;
+  padding-bottom: 4px; }
 
 .links {
   color: #ffffff;
@@ -45,10 +40,7 @@ footer a {
   height: 600px; }
 
 .tab-content {
-  padding-top: 10px;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  padding-top: 5px; }
 
 .btn-link {
   text-decoration: none; }

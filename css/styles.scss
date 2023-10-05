@@ -1,42 +1,35 @@
-$green: #108008;
-$yelllow: #d9ce34;
-$red:#590302;
-$white:#ffffff;
+$red: #690000;
+$yellow:#cfcc06;
+$verde:#0c750d;
+$white: #ffffff;
 
-@mixin margenes($top,$bottom){
- margin-top: $top;
- margin-bottom: $bottom;
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
 }
-
-@mixin padding($top, $right, $bottom, $left) {
-    padding-top: $top;
-    padding-right: $right;
-    padding-bottom: $bottom;
-    padding-left: $left;
-  }
 
 .jumbotron{
     background-color: $red;
     color: $white;
-    @include margenes (55px, 0px);
+    @include margenes(50px, 0px);
 }
 .inicio,h2{
   text-align:center;
 }
 
 footer {
-  background-color: $red; 
-  @include padding(10px,10px ,0 ,10px );
+  background-color: $red;
+  padding: 10px 10px 0 10px; 
   color: $white;
-  @include margenes (10px, 0px);
+  @include margenes(10px, 0px);
 }
   
 footer a{
-    color: $white;
+  color: #fff;
 }
   .card-futbol {
     flex: 1 150px;
-    @include margenes (10px, 0px);
+    @include margenes(10px, 0px);
   }
 
   .btn-reserva{
@@ -45,9 +38,11 @@ footer a{
   }
 
   .bi{
-    @include padding(0, 10px, 4px, 0);
-    color: $yelllow;
+   padding-right:10px ;
+   color:$yellow;
+   padding-bottom: 4px;
   }
+
   .links{
     color: $white;
     text-decoration: none;
@@ -58,9 +53,10 @@ footer a{
  }
 
  .tab-content{
-    @include padding(10px, 0, 0, 0);
+  padding-top: 5px;
  }
 
  .btn-link{
   text-decoration: none;
  }
+

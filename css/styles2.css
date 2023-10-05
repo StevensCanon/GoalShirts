@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #590302;
+  background-color: #690000;
   color: #ffffff;
   margin-top: 55px;
   margin-bottom: 0px;
@@ -9,7 +9,7 @@ h2 {
   text-align: center;
 }
 footer {
-  background-color: #590302;
+  background-color: #690000;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 0;
@@ -31,11 +31,11 @@ footer a {
   border-radius: 0px;
 }
 .bi {
-  padding-top: 0;
+  padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 4px;
-  padding-left: 0;
-  color: #d9ce34;
+  padding-left: 0px;
+  color: #cfcc06;
 }
 .links {
   color: #ffffff;
@@ -46,7 +46,7 @@ footer a {
   height: 600px;
 }
 .tab-content {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
