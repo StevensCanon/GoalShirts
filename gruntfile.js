@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 
         browserSync: {
             dev: {
-                bsFiles: {
+                bsFiles: { //browser files
                     src: [
                         'css/*.css',
                         '*.html',
@@ -90,7 +90,7 @@ module.exports = function (grunt) {
             options: {
                 encoding: 'utf8',
                 algorithm: 'md5',
-                length: 20 // Cambié "lenght" a "length"
+                length: 20 
             },
             release: {
                 files: [{
@@ -112,7 +112,7 @@ module.exports = function (grunt) {
         useminPrepare: {
             foo: {
                 dest: 'dist',
-                src: ['index.html', 'about.html', 'precios.html', 'terminos.html', 'contacto.html'] // Corregí "hmtl" a "html"
+                src: ['index.html', 'about.html', 'precios.html', 'terminos.html', 'contacto.html'] 
             },
             options: {
                 flow: {
